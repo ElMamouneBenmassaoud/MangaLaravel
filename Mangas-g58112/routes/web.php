@@ -14,3 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[\App\Http\Controllers\AccueilCtrl::class, 'getSeries']);
+
+
+Route::get('/serie/create',[\App\Http\Controllers\AccueilCtrl::class, 'form']);
+
+Route::post('/serie/create', [\App\Http\Controllers\AccueilCtrl::class, 'create']);

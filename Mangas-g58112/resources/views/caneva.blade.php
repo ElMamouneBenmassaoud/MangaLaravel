@@ -14,7 +14,7 @@
         <div id="sidebar">
             <ul id="menu">
                 <li><a href="/">Accueil</a></li>
-                <li><a href="/">Nouvelle série</a></li>
+                <li><a href="/serie/create">Nouvelle série</a></li>
             </ul>
         </div>
         
