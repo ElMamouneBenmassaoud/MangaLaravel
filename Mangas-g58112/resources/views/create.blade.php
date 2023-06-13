@@ -36,7 +36,12 @@
                 <div class="form-group">
                     <label for="serie_finie">Série terminée :</label>
                     <input type="checkbox" name="serie_finie" id="serie_finie" class="form-check-input">
-            </div>
+                </div>
+
+            <div class="form-group">
+                    <label for="description">Description :</label>
+                    <input type="text" name="description" id="description" class="form-control" value="{{ old('description') }}" required>
+                </div>
 
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary">Enregistrer</button>
