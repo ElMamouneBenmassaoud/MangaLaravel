@@ -34,7 +34,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+}
+.title-content{
+    text-align: center;
 }
 
 #footer {
@@ -57,3 +59,34 @@ body {
     color: #000000;
     text-decoration: none;
 }
+
+.serie-container {
+    border: #000000 solid;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.serie-image {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.serie-details {
+    flex: 1;
+}
+
+.serie-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.serie-info {
+    margin-bottom: 5px;
+}
+
+.serie-info span {
+    font-weight: bold;
+}
+
